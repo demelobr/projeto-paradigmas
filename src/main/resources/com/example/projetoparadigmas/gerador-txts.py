@@ -5,7 +5,7 @@ import requests
 url_api = "https://baconipsum.com/api/?type=meat-and-filler&paras=5&format=text"
 
 # Diretório onde os arquivos serão criados (opcional)
-diretorio = """C:\\Users\\Bruno Melo\\Documents\\Documentações\\My Codes\\Java\\projeto-paradigmas\\src\\main\\resources\\com\\example\\projetoparadigmas\\files"""
+diretorio = """DiretorioOndeSeDesejaCriarAPasta/files/"""
 
 # Cria o diretório, se não existir
 if not os.path.exists(diretorio):

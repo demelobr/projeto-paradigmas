@@ -1,0 +1,50 @@
+.background-white-primary{
+    -fx-background-color: #ffffff;
+}
+
+.background-white-secondary{
+    -fx-background-color: #f8f8f8;
+}
+
+.shadow{
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);
+}
+
+.border-radius{
+    -fx-background-radius: 10;
+}
+
+.input-box{
+    -fx-background-color: #f8f8f8;
+    -fx-color: #ffffff;
+    -fx-background-radius: 10;
+}
+
+.input-box .arrow-button {
+    -fx-background-radius: 0 10 10 0;
+    -fx-border-radius: 0 10 10 0;
+}
+
+.input-box .text-field {
+    -fx-background-radius: 10 0 0 10;
+    -fx-border-radius: 10 0 0 10;
+}
+
+.choice-box{
+    -fx-background-color: #f8f8f8;
+    -fx-mark-color: #008DD8;
+    -fx-background-radius: 10;
+}
+
+.button{
+    -fx-background-color: #008DD8;
+    -fx-background-radius: 10;
+}
+
+.button:hover{
+    -fx-background-color: #0168a3;
+}
+
+.button:pressed{
+    -fx-background-color: #065886;
+}
